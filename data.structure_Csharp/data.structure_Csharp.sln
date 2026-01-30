@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_library", "Class_library\Class_library.csproj", "{9137B792-6E70-4518-87D6-A24FD835790F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OPPConcepts", "OPPConcepts", "{487B2E78-729B-40BE-833C-AEA1921814E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9137B792-6E70-4518-87D6-A24FD835790F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9137B792-6E70-4518-87D6-A24FD835790F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9137B792-6E70-4518-87D6-A24FD835790F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9137B792-6E70-4518-87D6-A24FD835790F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9137B792-6E70-4518-87D6-A24FD835790F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {517A8BF4-BD02-4FA4-820A-C80639261306}
+	EndGlobalSection
+EndGlobal
