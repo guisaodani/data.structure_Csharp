@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Class_library
+﻿namespace Class_library
 {
     public class Date
     {
+        public int Year { get; set; }
+        public int Mont { get; set; }
+        public int Day { get; set; }
     }
 }
