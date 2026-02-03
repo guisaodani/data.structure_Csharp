@@ -10,14 +10,13 @@ do
         int y = int.Parse(Console.ReadLine()!);
         Console.Write("Ingrese un mes :");
         int m = int.Parse(Console.ReadLine()!);
-        Console.Write("Ingrese un dia :");
-        int d = int.Parse(Console.ReadLine()!);
+        var d = ConsoleExtension.GetInt("Ingrese un dia: ");
 
         var date1 = new Date();
         var date2 = new Date(y, m, d);
 
-        Console.WriteLine(date1);
-        Console.WriteLine(date2);
+        Console.WriteLine($"fecha 1 : {date1}");
+        Console.WriteLine($"fecha 2 : {date2}");
     }
     catch (Exception ex)
     {
